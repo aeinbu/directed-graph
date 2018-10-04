@@ -1,0 +1,36 @@
+
+
+t1/3 es, ef, ls, lf
+t2/5 es, ef, ls, lf
+t3/1 es, ef, ls, lf
+t4/2 es, ef, ls, lf
+t5/4 es, ef, ls, lf
+t6/8 es, ef, ls, lf
+t7/3 es, ef, ls, lf
+t8/1 es, ef, ls, lf
+
+
+from -> to
+
+start -> t1
+start -> t2
+t1 -> t3
+t2 -> t3
+t2 -> t4
+t3 -> t5
+t3 -> t6
+t4 -> t6
+t5 -> t7
+t6 -> t7
+t6 -> t8
+t7 -> end
+t8 -> end
+
+
+
+
+
+
+
+
+

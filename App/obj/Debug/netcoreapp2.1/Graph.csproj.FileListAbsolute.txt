@@ -1,0 +1,11 @@
+/Users/arjan/dev/oblig/graph/Graph/bin/Debug/netcoreapp2.1/Graph.deps.json
+/Users/arjan/dev/oblig/graph/Graph/bin/Debug/netcoreapp2.1/Graph.runtimeconfig.json
+/Users/arjan/dev/oblig/graph/Graph/bin/Debug/netcoreapp2.1/Graph.runtimeconfig.dev.json
+/Users/arjan/dev/oblig/graph/Graph/bin/Debug/netcoreapp2.1/Graph.dll
+/Users/arjan/dev/oblig/graph/Graph/bin/Debug/netcoreapp2.1/Graph.pdb
+/Users/arjan/dev/oblig/graph/Graph/obj/Debug/netcoreapp2.1/Graph.csprojAssemblyReference.cache
+/Users/arjan/dev/oblig/graph/Graph/obj/Debug/netcoreapp2.1/Graph.csproj.CoreCompileInputs.cache
+/Users/arjan/dev/oblig/graph/Graph/obj/Debug/netcoreapp2.1/Graph.AssemblyInfoInputs.cache
+/Users/arjan/dev/oblig/graph/Graph/obj/Debug/netcoreapp2.1/Graph.AssemblyInfo.cs
+/Users/arjan/dev/oblig/graph/Graph/obj/Debug/netcoreapp2.1/Graph.dll
+/Users/arjan/dev/oblig/graph/Graph/obj/Debug/netcoreapp2.1/Graph.pdb
