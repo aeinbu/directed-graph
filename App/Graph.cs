@@ -15,6 +15,8 @@ namespace App
 			_nodes = nodes.ToDictionary(node => node.Name);
 		}
 
+		public Node GetNode(string name) => _nodes[name];
+
 		internal void Print()
 		{
 			foreach (var node in _nodes.Values)
@@ -22,7 +24,7 @@ namespace App
 				Console.WriteLine(node);
 			}
 		}
-
+		
 		public int GetEarliestEnd()
 		{
 			return _nodes[Node.EndIdentifier].EarliestEnd.Value;

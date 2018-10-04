@@ -10,8 +10,6 @@ namespace App
             graph.WalkToSetEarliestAndLatest();
 
             graph.Print();
-
-            Console.WriteLine("The END!!!");
         }
 
         private static Graph GetGraph()

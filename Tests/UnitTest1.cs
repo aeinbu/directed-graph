@@ -17,13 +17,14 @@ namespace Tests
 		}
 
 		[Fact]
-		public void Test1()
+		public void FindLatestStartForAllStartNodes()
 		{
 			var graph = GetGraph();
 
 			graph.WalkToSetEarliestAndLatest();
 
-			Assert.Equal(18, graph.GetEarliestEnd());
+			Assert.Equal(3, graph.GetNode("t1").LatestStart);
+			Assert.Equal(0, graph.GetNode("t2").LatestStart);
 		}
 
 		private static Graph GetGraph()
