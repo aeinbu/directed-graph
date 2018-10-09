@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arjan/dev/oblig/graph/App/App.csproj",
+      "projectUniqueName": "/Users/arjan/dev/oblig/directed-graph/App/App.csproj",
       "projectName": "App",
-      "projectPath": "/Users/arjan/dev/oblig/graph/App/App.csproj",
+      "projectPath": "/Users/arjan/dev/oblig/directed-graph/App/App.csproj",
       "packagesPath": "/Users/arjan/.nuget/packages/",
-      "outputPath": "/Users/arjan/dev/oblig/graph/App/obj/",
+      "outputPath": "/Users/arjan/dev/oblig/directed-graph/App/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

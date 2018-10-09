@@ -9,3 +9,14 @@
 /Users/arjan/dev/oblig/graph/App/obj/Debug/netcoreapp2.1/App.AssemblyInfo.cs
 /Users/arjan/dev/oblig/graph/App/obj/Debug/netcoreapp2.1/App.dll
 /Users/arjan/dev/oblig/graph/App/obj/Debug/netcoreapp2.1/App.pdb
+/Users/arjan/dev/oblig/directed-graph/App/bin/Debug/netcoreapp2.1/App.deps.json
+/Users/arjan/dev/oblig/directed-graph/App/bin/Debug/netcoreapp2.1/App.runtimeconfig.json
+/Users/arjan/dev/oblig/directed-graph/App/bin/Debug/netcoreapp2.1/App.runtimeconfig.dev.json
+/Users/arjan/dev/oblig/directed-graph/App/bin/Debug/netcoreapp2.1/App.dll
+/Users/arjan/dev/oblig/directed-graph/App/bin/Debug/netcoreapp2.1/App.pdb
+/Users/arjan/dev/oblig/directed-graph/App/obj/Debug/netcoreapp2.1/App.csprojAssemblyReference.cache
+/Users/arjan/dev/oblig/directed-graph/App/obj/Debug/netcoreapp2.1/App.csproj.CoreCompileInputs.cache
+/Users/arjan/dev/oblig/directed-graph/App/obj/Debug/netcoreapp2.1/App.AssemblyInfoInputs.cache
+/Users/arjan/dev/oblig/directed-graph/App/obj/Debug/netcoreapp2.1/App.AssemblyInfo.cs
+/Users/arjan/dev/oblig/directed-graph/App/obj/Debug/netcoreapp2.1/App.dll
+/Users/arjan/dev/oblig/directed-graph/App/obj/Debug/netcoreapp2.1/App.pdb

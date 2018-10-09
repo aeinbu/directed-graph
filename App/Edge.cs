@@ -2,13 +2,13 @@ namespace App
 {
 	public class Edge
 	{
-		public string From {get;}
-		public string To {get;}
+		public string Left {get;}
+		public string Right {get;}
 
-		public Edge(string from, string to)
+		public Edge(string left, string right)
 		{
-			From = from;
-			To = to;
+			Left = left;
+			Right = right;
 		}
 	}
 }

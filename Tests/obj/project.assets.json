@@ -5765,11 +5765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arjan/dev/oblig/graph/Tests/Tests.csproj",
+      "projectUniqueName": "/Users/arjan/dev/oblig/directed-graph/Tests/Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "/Users/arjan/dev/oblig/graph/Tests/Tests.csproj",
+      "projectPath": "/Users/arjan/dev/oblig/directed-graph/Tests/Tests.csproj",
       "packagesPath": "/Users/arjan/.nuget/packages/",
-      "outputPath": "/Users/arjan/dev/oblig/graph/Tests/obj/",
+      "outputPath": "/Users/arjan/dev/oblig/directed-graph/Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5786,8 +5786,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/arjan/dev/oblig/graph/App/App.csproj": {
-              "projectPath": "/Users/arjan/dev/oblig/graph/App/App.csproj"
+            "/Users/arjan/dev/oblig/directed-graph/App/App.csproj": {
+              "projectPath": "/Users/arjan/dev/oblig/directed-graph/App/App.csproj"
             }
           }
         }

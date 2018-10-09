@@ -24,7 +24,7 @@ namespace App
 				Console.WriteLine(node);
 			}
 		}
-		
+
 		public int GetEarliestEnd()
 		{
 			return _nodes[Node.EndIdentifier].EarliestEnd.Value;
@@ -32,17 +32,17 @@ namespace App
 
 		public void WalkToSetEarliestAndLatest()
 		{
-			var edgesToFollowForwards = _edges.Where(edge => edge.From == Node.StartIdentifier);
+			var edgesToFollowForwards = _edges.Where(edge => edge.Left == Node.StartIdentifier);
 			foreach (var edge in edgesToFollowForwards)
 			{
-				WalkToSetEarliest(_nodes[edge.To], 0);
+				WalkToSetEarliest(_nodes[edge.Right], 0);
 			}
 
 			var earliestEnd = GetEarliestEnd();
-			var edgesToFollowBackwards = _edges.Where(edge => edge.To == Node.EndIdentifier);
-			foreach(var edge in edgesToFollowBackwards)
+			var edgesToFollowBackwards = _edges.Where(edge => edge.Right == Node.EndIdentifier);
+			foreach (var edge in edgesToFollowBackwards)
 			{
-				WalkToSetLatest(_nodes[edge.From], earliestEnd);
+				WalkToSetLatest(_nodes[edge.Left], earliestEnd);
 			}
 		}
 
@@ -55,26 +55,28 @@ namespace App
 
 			currentNode.EarliestStart = earliestStart;
 
-			var edgesToFollow = _edges.Where(nextEdge => nextEdge.From == currentNode.Name);
+			var edgesToFollow = _edges.Where(nextEdge => nextEdge.Left == currentNode.Name);
 			foreach (var edge in edgesToFollow)
 			{
-				WalkToSetEarliest(_nodes[edge.To], currentNode.EarliestEnd.Value);
+				//TODO: add circular detection
+				WalkToSetEarliest(_nodes[edge.Right], currentNode.EarliestEnd.Value);
 			}
 		}
 
 		private void WalkToSetLatest(Node currentNode, int latestEnd)
 		{
-			if (currentNode.LatestEnd.HasValue && currentNode.LatestEnd <= latestEnd)	//TODO: ?
+			if (currentNode.LatestEnd.HasValue && currentNode.LatestEnd <= latestEnd)   //TODO: 3x?
 			{
 				return;
 			}
 
-			currentNode.LatestEnd = latestEnd;	//TODO: ?
+			currentNode.LatestEnd = latestEnd;  //TODO: 2x?
 
-			var edgesToFollow = _edges.Where(nextEdge => nextEdge.To == currentNode.Name);	//TODO: ?
+			var edgesToFollow = _edges.Where(nextEdge => nextEdge.Right == currentNode.Name);  //TODO: 1x?
 			foreach (var edge in edgesToFollow)
 			{
-				WalkToSetLatest(_nodes[edge.From], currentNode.LatestStart.Value);	//TODO: ?
+				//TODO: add circular detection
+				WalkToSetLatest(_nodes[edge.Left], currentNode.LatestStart.Value);  //TODO: 3x?
 			}
 		}
 
